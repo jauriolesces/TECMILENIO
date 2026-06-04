@@ -118,14 +118,17 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
-  if (getMetadata('breadcrumbs').toLowerCase() === 'true') {
+  if ((getMetadata('breadcrumbs') || '').toLowerCase() === 'true') {
     doc.body.dataset.breadcrumbs = true;
   }
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
     document.body.classList.add('appear');
-    await loadSection(main.querySelector('.section'), waitForFirstImage);
+    const firstSection = main.querySelector('.section');
+    if (firstSection) {
+      await loadSection(firstSection, waitForFirstImage);
+    }
   }
 
   try {
