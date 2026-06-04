@@ -22,10 +22,12 @@
       "id": "video",
       "fields": [
         {
-          "component": "aem-content",
+          "component": "reference",
           "valueType": "string",
           "name": "uri",
-          "label": "Video"
+          "label": "Video",
+          "description": "Select a video from the DAM repository or paste an external URL (YouTube, Vimeo)",
+          "multi": false
         },
         {
           "component": "multiselect",
@@ -40,6 +42,48 @@
                 {
                   "name": "AutoPlay",
                   "value": "autoplay"
+                }
+              ]
+            },
+            {
+              "name": "Layout",
+              "children": [
+                {
+                  "name": "Full Width",
+                  "value": "full-width"
+                }
+              ]
+            },
+            {
+              "name": "Color",
+              "children": [
+                {
+                  "name": "Black",
+                  "value": "black"
+                },
+                {
+                  "name": "White",
+                  "value": "white"
+                },
+                {
+                  "name": "Grey",
+                  "value": "grey"
+                },
+                {
+                  "name": "Teal",
+                  "value": "teal"
+                },
+                {
+                  "name": "Green Accent",
+                  "value": "green-accent"
+                },
+                {
+                  "name": "Dark Teal",
+                  "value": "dark-teal"
+                },
+                {
+                  "name": "Light Teal",
+                  "value": "light-teal"
                 }
               ]
             }

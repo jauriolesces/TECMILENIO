@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-benefits",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-02T17:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es/maestrias",
+    "originPage": "master's degree program listing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "benefits-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "badges + text descriptions | image with icon overlays",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "benefit/feature showcases with image",
+      "split layouts with badges and descriptions",
+      "program benefit sections"
+    ],
+    "notSuitableFor": [
+      "simple text-only columns",
+      "image galleries without text",
+      "promotional CTAs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es/maestrias"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T17:15:00.000Z"
+  }
+}

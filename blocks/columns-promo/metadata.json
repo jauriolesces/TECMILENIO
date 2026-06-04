@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-promo",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-02T16:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es",
+    "originPage": "homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "promotional",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + paragraph + CTA side by side",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promotional content with image",
+      "book/product feature sections",
+      "side-by-side image and text layouts"
+    ],
+    "notSuitableFor": [
+      "multi-image galleries",
+      "text-only columns",
+      "stat displays"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es", "/es/maestrias"],
+    "reuseCount": 2,
+    "lastUsed": "2026-06-02T17:15:00.000Z"
+  }
+}

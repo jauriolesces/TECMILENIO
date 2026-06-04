@@ -1,0 +1,112 @@
+/* Block: cards-dates -- enrollment period dates bar */
+
+/* Source: section.hero-periods-2024 on tecmilenio.mx */
+
+.cards-dates-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.cards-dates {
+  background-color: #efefef;
+  color: #00534c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 16px;
+  box-shadow: rgb(0 0 0 / 61%) 0 8px 7px -8px;
+}
+
+.cards-dates > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.cards-dates > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: transparent;
+  border: none;
+}
+
+/* Hide the empty first div in each li */
+.cards-dates > ul > li > div:first-child:empty {
+  display: none;
+}
+
+/* Period text content */
+.cards-dates > ul > li > .cards-dates-card-body {
+  text-align: center;
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.cards-dates .cards-dates-card-body h3 {
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #00534c;
+  margin: 0;
+}
+
+.cards-dates .cards-dates-card-body p {
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #00534c;
+  margin: 0;
+}
+
+/* Vertical divider between items */
+.cards-dates > ul > li:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 48px;
+  background-color: #00534c;
+}
+
+/* Remove card image styles */
+.cards-dates .cards-dates-card-image {
+  display: none;
+}
+
+.cards-dates > ul > li img {
+  display: none;
+}
+
+/* Mobile layout */
+@media (width >= 900px) {
+  .cards-dates {
+    padding: 0 10px;
+    height: 70px;
+  }
+
+  .cards-dates > ul {
+    flex-wrap: nowrap;
+    max-width: 800px;
+  }
+}
+
+/* Color variant classes */
+.cards-dates.black { color: #000; }
+.cards-dates.white { color: #fff; }
+.cards-dates.grey { color: #6c6c6c; background-color: #f5f5f5; }
+.cards-dates.teal { color: #00534c; }
+.cards-dates.green-accent { color: #26d07c; }
+.cards-dates.dark-teal { color: #fff; background-color: #003d38; }
+.cards-dates.light-teal { color: #fff; background-color: #007864; }

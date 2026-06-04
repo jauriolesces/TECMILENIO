@@ -1,0 +1,237 @@
+/* Block: carousel-banner
+   Full-width hero image carousel/slideshow.
+   Each slide is a linked banner image that covers the entire slide area.
+   Text content is visually hidden (screen-reader accessible only).
+*/
+
+/* Full-width wrapper override */
+.carousel-banner-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Main block container */
+.carousel-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Slides container */
+.carousel-banner .carousel-banner-slides-container {
+  position: relative;
+}
+
+.carousel-banner .carousel-banner-slides,
+.carousel-banner .carousel-banner-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-banner .carousel-banner-slides {
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: scroll clip;
+}
+
+.carousel-banner .carousel-banner-slides::-webkit-scrollbar {
+  display: none;
+}
+
+/* Individual slide */
+.carousel-banner .carousel-banner-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 50vw;
+}
+
+@media (width >= 900px) {
+  .carousel-banner .carousel-banner-slide {
+    min-height: min(52vw, calc(100dvh - var(--header-height)));
+  }
+}
+
+/* Image container - covers entire slide */
+.carousel-banner .carousel-banner-slide .carousel-banner-slide-image {
+  position: absolute;
+  inset: 0;
+}
+
+.carousel-banner .carousel-banner-slide .carousel-banner-slide-image p {
+  margin: 0;
+  height: 100%;
+}
+
+.carousel-banner .carousel-banner-slide .carousel-banner-slide-image picture {
+  position: absolute;
+  inset: 0;
+}
+
+.carousel-banner .carousel-banner-slide .carousel-banner-slide-image picture > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Content (link text) - visually hidden, remains accessible */
+.carousel-banner .carousel-banner-slide .carousel-banner-slide-content {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  background: none;
+  color: transparent;
+}
+
+.carousel-banner .carousel-banner-slide .carousel-banner-slide-content p {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.carousel-banner .carousel-banner-slide .carousel-banner-slide-content p.button-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Make the link cover the entire slide for click accessibility */
+/* stylelint-disable-next-line no-descending-specificity */
+.carousel-banner .carousel-banner-slide .carousel-banner-slide-content a:any-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  font-size: 0;
+  text-decoration: none;
+  background: none;
+  border: none !important;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+/* Slide indicators - bottom dots */
+.carousel-banner .carousel-banner-slide-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 10px;
+  padding: 16px 12px;
+  background-color: var(--background-color);
+  line-height: 0;
+}
+
+.carousel-banner .carousel-banner-slide-indicator button {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: #c4c4c4;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.carousel-banner .carousel-banner-slide-indicator button:disabled,
+.carousel-banner .carousel-banner-slide-indicator button:hover,
+.carousel-banner .carousel-banner-slide-indicator button:focus-visible {
+  background-color: var(--text-color);
+}
+
+/* Navigation arrows */
+.carousel-banner .carousel-banner-navigation-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  padding: 0 12px;
+  pointer-events: none;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.carousel-banner .carousel-banner-navigation-buttons button {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background-color: rgb(0 0 0 / 30%);
+  transition: background-color 0.3s;
+  cursor: pointer;
+  pointer-events: auto;
+  color: #fff;
+}
+
+.carousel-banner .carousel-banner-navigation-buttons button:hover,
+.carousel-banner .carousel-banner-navigation-buttons button:focus-visible {
+  background-color: rgb(0 0 0 / 60%);
+}
+
+.carousel-banner .carousel-banner-navigation-buttons button::after {
+  display: block;
+  content: '';
+  border: 3px solid #fff;
+  border-bottom: 0;
+  border-left: 0;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 3px);
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.carousel-banner .carousel-banner-navigation-buttons button.slide-next::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+  left: calc(50% - 3px);
+}
+
+@media (width >= 600px) {
+  .carousel-banner .carousel-banner-navigation-buttons {
+    padding: 0 24px;
+  }
+
+  .carousel-banner .carousel-banner-navigation-buttons button {
+    width: 52px;
+    height: 52px;
+  }
+}
+
+@media (width >= 900px) {
+  .carousel-banner .carousel-banner-navigation-buttons {
+    padding: 0 40px;
+  }
+}
+
+/* Color variant classes */
+.carousel-banner.black { color: #000; }
+.carousel-banner.white { color: #fff; }
+.carousel-banner.grey { color: #6c6c6c; background-color: #f5f5f5; }
+.carousel-banner.teal { color: #00534c; }
+.carousel-banner.green-accent { color: #26d07c; }
+.carousel-banner.dark-teal { color: #fff; background-color: #003d38; }
+.carousel-banner.light-teal { color: #fff; background-color: #007864; }

@@ -1,0 +1,21 @@
+:root {
+  --heading-font-family: "Montserrat", "Source Sans 3", arial, helvetica, sans-serif;
+  --body-font-family: "Source Sans 3", arial, helvetica, sans-serif;
+  --background-color: #fff;
+  --text-color: #212529;
+  --link-color: #007864;
+  --link-hover-color: #0056b3;
+  --section-padding: 70px 0;
+  --nav-height: 64px;
+  --content-max-width: 1300px;
+  --heading-size-xxl: 34px;
+  --heading-size-xl: 28px;
+  --heading-size-l: 20px;
+  --heading-size-m: 18px;
+  --heading-size-s: 16px;
+  --heading-size-xs: 14px;
+  --color-teal: #00534c;
+  --color-green-accent: #26d07c;
+  --color-grey-light: #f8f8f8;
+  --color-dark-teal: #003d38;
+}

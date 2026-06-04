@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-blog",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-02T16:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es",
+    "originPage": "homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "blog-promo",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "large image + text content on dark background",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog/article promotion sections",
+      "dark-themed content with image",
+      "call-to-action sections with imagery"
+    ],
+    "notSuitableFor": [
+      "light-themed layouts",
+      "multi-column text",
+      "image galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T16:36:00.000Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-stats",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-02T16:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es",
+    "originPage": "homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent",
+    "density": "compact",
+    "purpose": "statistics",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "icon + metric number + label per card",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "quick facts/statistics displays",
+      "number counters",
+      "key metrics sections"
+    ],
+    "notSuitableFor": [
+      "image cards",
+      "long-form content cards",
+      "feature descriptions"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T16:36:00.000Z"
+  }
+}

@@ -142,6 +142,53 @@
     ]
   },
   {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "accordion-item",
     "fields": [
       {
@@ -161,6 +208,53 @@
     ]
   },
   {
+    "id": "cards-dates",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -176,6 +270,746 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards-features",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards-info",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards-links",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards-programs",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards-stats",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "carousel-banner",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel-banner-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "media_image",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "media_imageAlt",
+        "value": "",
+        "label": "Background Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "content_text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "carousel-logos",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel-logos-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "media_image",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "media_imageAlt",
+        "value": "",
+        "label": "Background Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "content_text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "carousel-programs",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel-programs-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "media_image",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "media_imageAlt",
+        "value": "",
+        "label": "Background Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "content_text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "carousel-video",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Options",
+        "description": "Choose layout and color options for this block",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Layout",
+            "children": [
+              {
+                "name": "Full Width",
+                "value": "full-width"
+              }
+            ]
+          },
+          {
+            "name": "Color",
+            "children": [
+              {
+                "name": "Black",
+                "value": "black"
+              },
+              {
+                "name": "White",
+                "value": "white"
+              },
+              {
+                "name": "Grey",
+                "value": "grey"
+              },
+              {
+                "name": "Teal",
+                "value": "teal"
+              },
+              {
+                "name": "Green Accent",
+                "value": "green-accent"
+              },
+              {
+                "name": "Dark Teal",
+                "value": "dark-teal"
+              },
+              {
+                "name": "Light Teal",
+                "value": "light-teal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel-video-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "video_url",
+        "value": "",
+        "label": "YouTube Video URL",
+        "description": "Paste the full YouTube URL (e.g. https://www.youtube.com/watch?v=VIDEO_ID)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "video_title",
+        "value": "",
+        "label": "Video Title",
+        "description": "Title displayed below the video"
+      }
+    ]
+  },
+  {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
       }
     ]
   },
@@ -206,6 +1040,250 @@
     ]
   },
   {
+    "id": "columns-benefits",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "columns-blog",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "columns-gallery",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "columns-promo",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -221,6 +1299,48 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
       }
     ]
   },
@@ -246,6 +1366,48 @@
         "valueType": "string",
         "name": "embed_uri",
         "label": "URI"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
       }
     ]
   },
@@ -262,6 +1424,48 @@
         "name": "action",
         "label": "Action URL",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
       }
     ]
   },
@@ -272,6 +1476,48 @@
         "component": "aem-content",
         "name": "reference",
         "label": "Reference"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
       }
     ]
   },
@@ -298,6 +1544,48 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
       }
     ]
   },
@@ -313,6 +1601,48 @@
         "component": "text",
         "name": "linkText",
         "label": "Text"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
       }
     ]
   },
@@ -332,6 +1662,48 @@
         "value": "",
         "label": "Attribution",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
       }
     ]
   },
@@ -357,6 +1729,39 @@
               {
                 "name": "Minimal",
                 "value": "minimal"
+              }
+            ]
+          },
+          {
+            "name": "Color",
+            "children": [
+              {
+                "name": "Black",
+                "value": "black"
+              },
+              {
+                "name": "White",
+                "value": "white"
+              },
+              {
+                "name": "Grey",
+                "value": "grey"
+              },
+              {
+                "name": "Teal",
+                "value": "teal"
+              },
+              {
+                "name": "Green Accent",
+                "value": "green-accent"
+              },
+              {
+                "name": "Dark Teal",
+                "value": "dark-teal"
+              },
+              {
+                "name": "Light Teal",
+                "value": "light-teal"
               }
             ]
           }
@@ -393,6 +1798,39 @@
               {
                 "name": "No Header",
                 "value": "no-header"
+              }
+            ]
+          },
+          {
+            "name": "Color",
+            "children": [
+              {
+                "name": "Black",
+                "value": "black"
+              },
+              {
+                "name": "White",
+                "value": "white"
+              },
+              {
+                "name": "Grey",
+                "value": "grey"
+              },
+              {
+                "name": "Teal",
+                "value": "teal"
+              },
+              {
+                "name": "Green Accent",
+                "value": "green-accent"
+              },
+              {
+                "name": "Dark Teal",
+                "value": "dark-teal"
+              },
+              {
+                "name": "Light Teal",
+                "value": "light-teal"
               }
             ]
           }
@@ -510,6 +1948,158 @@
     ]
   },
   {
+    "id": "tabs-filter",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tabs-filter-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "value": "",
+        "label": "Tab Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_heading",
+        "value": "",
+        "label": "Heading"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "content_headingType",
+        "value": "",
+        "label": "Heading Type",
+        "options": [
+          {
+            "name": "H3",
+            "value": "h3"
+          },
+          {
+            "name": "H4",
+            "value": "h4"
+          },
+          {
+            "name": "H5",
+            "value": "h5"
+          },
+          {
+            "name": "H6",
+            "value": "h6"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "content_image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "content_richtext",
+        "value": "",
+        "label": "Content",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "tabs",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Color Variant",
+        "description": "Override the block color scheme",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          },
+          {
+            "name": "Teal",
+            "value": "teal"
+          },
+          {
+            "name": "Green Accent",
+            "value": "green-accent"
+          },
+          {
+            "name": "Dark Teal",
+            "value": "dark-teal"
+          },
+          {
+            "name": "Light Teal",
+            "value": "light-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "tabs-item",
     "fields": [
       {
@@ -571,10 +2161,12 @@
     "id": "video",
     "fields": [
       {
-        "component": "aem-content",
+        "component": "reference",
         "valueType": "string",
         "name": "uri",
-        "label": "Video"
+        "label": "Video",
+        "description": "Select a video from the DAM repository or paste an external URL (YouTube, Vimeo)",
+        "multi": false
       },
       {
         "component": "multiselect",
@@ -589,6 +2181,48 @@
               {
                 "name": "AutoPlay",
                 "value": "autoplay"
+              }
+            ]
+          },
+          {
+            "name": "Layout",
+            "children": [
+              {
+                "name": "Full Width",
+                "value": "full-width"
+              }
+            ]
+          },
+          {
+            "name": "Color",
+            "children": [
+              {
+                "name": "Black",
+                "value": "black"
+              },
+              {
+                "name": "White",
+                "value": "white"
+              },
+              {
+                "name": "Grey",
+                "value": "grey"
+              },
+              {
+                "name": "Teal",
+                "value": "teal"
+              },
+              {
+                "name": "Green Accent",
+                "value": "green-accent"
+              },
+              {
+                "name": "Dark Teal",
+                "value": "dark-teal"
+              },
+              {
+                "name": "Light Teal",
+                "value": "light-teal"
               }
             ]
           }

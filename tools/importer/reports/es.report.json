@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://tecmilenio.mx/es",
+  "path": "es",
+  "timestamp": "2026-06-02T17:10:20.998Z",
+  "title": "Universidad Tecmilenio",
+  "template": "homepage",
+  "blocks": [
+    "carousel-banner",
+    "cards-dates",
+    "carousel-programs",
+    "cards-features",
+    "carousel-video",
+    "cards-stats",
+    "carousel-logos",
+    "columns-gallery",
+    "columns-blog"
+  ]
+}

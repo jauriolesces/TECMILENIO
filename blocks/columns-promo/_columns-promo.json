@@ -1,0 +1,100 @@
+{
+  "definitions": [
+    {
+      "title": "Columns Promo",
+      "id": "columns-promo",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/columns/v1/columns",
+            "template": {
+              "columns": "2",
+              "rows": "1",
+              "model": "columns-promo"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "columns-promo",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "number",
+          "name": "columns",
+          "value": "",
+          "label": "Columns"
+        },
+        {
+          "component": "text",
+          "valueType": "number",
+          "name": "rows",
+          "value": "",
+          "label": "Rows"
+        },
+        {
+          "component": "select",
+          "name": "classes",
+          "label": "Color Variant",
+          "description": "Override the block color scheme",
+          "value": "",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Black",
+              "value": "black"
+            },
+            {
+              "name": "White",
+              "value": "white"
+            },
+            {
+              "name": "Grey",
+              "value": "grey"
+            },
+            {
+              "name": "Teal",
+              "value": "teal"
+            },
+            {
+              "name": "Green Accent",
+              "value": "green-accent"
+            },
+            {
+              "name": "Dark Teal",
+              "value": "dark-teal"
+            },
+            {
+              "name": "Light Teal",
+              "value": "light-teal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "columns-promo",
+      "components": [
+        "column"
+      ]
+    },
+    {
+      "id": "column",
+      "components": [
+        "text",
+        "image",
+        "button",
+        "title"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-features",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-02T16:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es",
+    "originPage": "homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "compact",
+    "purpose": "feature-grid",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + title + description per card in grid",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature/benefit grids",
+      "icon + text card layouts",
+      "why-choose-us sections"
+    ],
+    "notSuitableFor": [
+      "image-heavy cards",
+      "large promotional cards",
+      "stat counters"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T16:36:00.000Z"
+  }
+}

@@ -34,15 +34,135 @@
     ]
   },
   {
+    "id": "cards-dates",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-features",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-info",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-links",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-programs",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-stats",
+    "components": [
+      "card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
     ]
   },
   {
+    "id": "carousel-banner",
+    "components": [
+      "carousel-banner-item"
+    ]
+  },
+  {
+    "id": "carousel-logos",
+    "components": [
+      "carousel-logos-item"
+    ]
+  },
+  {
+    "id": "carousel-programs",
+    "components": [
+      "carousel-programs-item"
+    ]
+  },
+  {
+    "id": "carousel-video",
+    "components": [
+      "carousel-video-item"
+    ]
+  },
+  {
     "id": "carousel",
     "components": [
       "carousel-item"
+    ]
+  },
+  {
+    "id": "columns-benefits",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-blog",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-gallery",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-promo",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {
@@ -82,6 +202,12 @@
     "id": "table-4-columns",
     "components": [
       "table-col-4"
+    ]
+  },
+  {
+    "id": "tabs-filter",
+    "components": [
+      "tabs-filter-item"
     ]
   },
   {

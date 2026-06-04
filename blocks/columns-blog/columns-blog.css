@@ -1,0 +1,112 @@
+/* Block: columns-blog
+   Two-column layout with gradient background.
+   Left: large blog image. Right: white text + bordered CTA button.
+   Section uses "dark" style (bg handled by section.dark in styles.css).
+   Source gradient on the card itself: linear-gradient(180deg, #015B53 38.5%, #02C1B0 100%)
+*/
+
+.columns-blog {
+  background: linear-gradient(180deg, #015b53 38.5%, #02c1b0 100%);
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.columns-blog > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image cell */
+.columns-blog > div > .columns-blog-img-col {
+  order: 0;
+}
+
+.columns-blog > div > .columns-blog-img-col picture {
+  display: block;
+  line-height: 0;
+}
+
+.columns-blog > div > .columns-blog-img-col img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Text cell */
+.columns-blog > div > div:not(.columns-blog-img-col) {
+  order: 1;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 32px 48px;
+}
+
+/* Paragraph text */
+.columns-blog p {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  margin: 0 0 16px;
+}
+
+/* CTA button - override global button reset */
+main .columns-blog .button-container {
+  display: block;
+  width: 100%;
+}
+
+main .columns-blog a.button:any-link {
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 2px solid #fff;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0;
+}
+
+main .columns-blog a.button:hover {
+  background-color: rgb(255 255 255 / 15%);
+  color: #fff;
+}
+
+/* Desktop layout */
+@media (width >= 900px) {
+  .columns-blog > div {
+    flex-flow: row nowrap;
+    height: 500px;
+  }
+
+  .columns-blog > div > .columns-blog-img-col {
+    width: 50%;
+    flex: 0 0 50%;
+  }
+
+  .columns-blog > div > .columns-blog-img-col img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .columns-blog > div > div:not(.columns-blog-img-col) {
+    width: 50%;
+    flex: 0 0 50%;
+    padding: 0 48px;
+  }
+}
+
+/* Color variant classes */
+.columns-blog.black { color: #000; }
+.columns-blog.white { color: #fff; }
+.columns-blog.grey { color: #6c6c6c; background-color: #f5f5f5; }
+.columns-blog.teal { color: #00534c; }
+.columns-blog.green-accent { color: #26d07c; }
+.columns-blog.dark-teal { color: #fff; background-color: #003d38; }
+.columns-blog.light-teal { color: #fff; background-color: #007864; }

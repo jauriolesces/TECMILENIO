@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-logos",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-06-02T16:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es",
+    "originPage": "homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "accreditation-logos",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "logo image + description text per slide",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "accreditation/certification logos",
+      "partner logo rotators",
+      "award/recognition showcases"
+    ],
+    "notSuitableFor": [
+      "full-width banner carousels",
+      "video carousels",
+      "large image slideshows"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T16:36:00.000Z"
+  }
+}

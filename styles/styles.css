@@ -1,41 +1,31 @@
-/*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
- */
+@import url('brand.css');
 
 :root {
   /* colors */
-  --background-color: white;
+  --background-color: #fff;
   --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
-  --overlay-background-color:lightgrey;
+  --dark-color: #003d38;
+  --text-color: #212529;
+  --link-color: #007864;
+  --link-hover-color: #0056b3;
+  --overlay-background-color: #f0f0f0;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: "Source Sans 3", arial, helvetica, sans-serif;
+  --heading-font-family: "Montserrat", "Source Sans 3", arial, helvetica, sans-serif;
 
   /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
 
   /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  --heading-font-size-xxl: 34px;
+  --heading-font-size-xl: 28px;
+  --heading-font-size-l: 20px;
+  --heading-font-size-m: 18px;
+  --heading-font-size-s: 16px;
+  --heading-font-size-xs: 14px;
 
   /* nav heights */
   --nav-height: 64px;
@@ -45,13 +35,7 @@
 
 /* fallback fonts */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
-}
-
-@font-face {
-  font-family: roboto-fallback;
+  font-family: "source-sans-3-fallback";
   size-adjust: 99.529%;
   src: local('Arial');
 }
@@ -64,12 +48,12 @@
     --body-font-size-xs: 14px;
 
     /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --heading-font-size-xxl: 36px;
+    --heading-font-size-xl: 28px;
+    --heading-font-size-l: 22px;
+    --heading-font-size-m: 20px;
+    --heading-font-size-s: 18px;
+    --heading-font-size-xs: 16px;
   }
 }
 
@@ -242,7 +226,7 @@ main > .section {
 }
 
 main > .section > div {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
   padding: 0 24px;
 }
@@ -263,4 +247,201 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.grey {
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 70px 0;
+}
+
+main .section.teal {
+  background-color: #00534c;
+  color: #fff;
+  margin: 0;
+  padding: 70px 0;
+  text-align: center;
+}
+
+main .section.teal .material-symbols-outlined {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+main .section.teal h2 {
+  color: #fff;
+}
+
+main .section.teal a:any-link {
+  color: #fff;
+}
+
+main .section.teal .button-container {
+  display: block;
+  margin-top: 24px;
+}
+
+main .section.teal .button-container a.button:any-link {
+  display: inline-block;
+  padding: 12px 32px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  background: none;
+  margin: 0;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+
+main .section.teal .button-container a.button:any-link:hover {
+  background-color: rgb(255 255 255 / 15%);
+  text-decoration: none;
+}
+
+main .section.dark {
+  background-color: #003d38;
+  color: #fff;
+  margin: 0;
+  padding: 70px 0;
+}
+
+main .section.dark a:any-link {
+  color: #26d07c;
+}
+
+main .section.green-banner {
+  background: linear-gradient(135deg, #00534c 0%, #003d38 100%);
+  color: #fff;
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.green-banner ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 13px;
+}
+
+main .section.green-banner li:not(:last-child)::after {
+  content: '>';
+  margin-left: 4px;
+  opacity: 0.7;
+}
+
+main .section.green-banner a:any-link {
+  color: rgb(255 255 255 / 80%);
+  text-decoration: none;
+}
+
+main .section.green-banner a:any-link:hover {
+  color: #fff;
+}
+
+main .section.green-banner h1 {
+  color: #fff;
+  font-size: 36px;
+  margin: 0;
+}
+
+main .section.accent-teal {
+  background-color: #007864;
+  color: #fff;
+  margin: 0;
+  padding: 70px 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+main .section.accent-teal a:any-link {
+  color: #fff;
+}
+
+main .section.green {
+  background-color: #26d07c;
+  margin: 0;
+  padding: 70px 0;
+  text-align: center;
+}
+
+main .section.green h2 {
+  font-size: 40px;
+  color: #00534c;
+  font-weight: 700;
+}
+
+main .section.green p {
+  color: #393939;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+main .section.green a:any-link {
+  color: #00534c;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+main .section.green a:any-link:hover {
+  text-decoration: underline;
+}
+
+main .section.green .material-symbols-outlined {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+/* Additional section color variants (UE dropdown) */
+main .section.black {
+  background-color: #000;
+  color: #fff;
+}
+
+main .section.white {
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+main .section.green-accent {
+  background-color: #26d07c;
+  color: #003d38;
+}
+
+main .section.dark-teal {
+  background-color: #003d38;
+  color: #fff;
+}
+
+main .section.light-teal {
+  background-color: #007864;
+  color: #fff;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+main .button-container { display: inline; }
+
+/* stylelint-disable-next-line no-descending-specificity */
+main a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: var(--link-color);
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  white-space: normal;
 }

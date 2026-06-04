@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-gallery",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-02T16:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es",
+    "originPage": "homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "image-gallery",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "mosaic grid of campus images",
+    "buttonCount": 1,
+    "imageCount": 5
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "campus/facility photo grids",
+      "image gallery layouts",
+      "mosaic image displays"
+    ],
+    "notSuitableFor": [
+      "text-heavy content",
+      "side-by-side text columns",
+      "form layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es", "/es/maestrias"],
+    "reuseCount": 2,
+    "lastUsed": "2026-06-02T17:15:00.000Z"
+  }
+}

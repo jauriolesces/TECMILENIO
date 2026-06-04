@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-programs",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-06-02T16:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es",
+    "originPage": "homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "program-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + paragraph + CTA per slide",
+    "buttonCount": 1,
+    "imageCount": 9
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "academic program showcases",
+      "service/offering carousels",
+      "card-based slideshows with descriptions"
+    ],
+    "notSuitableFor": [
+      "image-only banners",
+      "video carousels",
+      "simple logo rotators"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T16:36:00.000Z"
+  }
+}

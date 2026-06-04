@@ -167,6 +167,16 @@ function loadDelayed() {
   // eslint-disable-next-line import/no-cycle
   window.setTimeout(() => import('./delayed.js'), 3000);
   // load anything that can be postponed to the latest here
+
+  // HubSpot chat widget — loads by default unless page metadata has chat-widget: disabled
+  if (getMetadata('chat-widget') !== 'disabled') {
+    const script = document.createElement('script');
+    script.src = 'https://js.hs-scripts.com/2429099.js';
+    script.async = true;
+    script.defer = true;
+    script.id = 'hs-script-loader';
+    document.head.appendChild(script);
+  }
 }
 
 async function loadPage() {

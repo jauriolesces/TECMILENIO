@@ -1,0 +1,318 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://tecmilenio.mx/es"
+      ],
+      "description": "Main homepage with hero, featured programs, stats, and CTAs",
+      "blocks": [
+        {
+          "name": "carousel-banner",
+          "instances": [
+            "section#hero-banner-2024"
+          ]
+        },
+        {
+          "name": "cards-dates",
+          "instances": [
+            "section.hero-periods-2024"
+          ]
+        },
+        {
+          "name": "cards-info",
+          "instances": [
+            "section.info-cards-2024:first-of-type"
+          ]
+        },
+        {
+          "name": "carousel-programs",
+          "instances": [
+            "section.swiper-carrusel-2024 .swiper-container"
+          ]
+        },
+        {
+          "name": "cards-features",
+          "instances": [
+            "section.features-2024 .features-2024-container"
+          ]
+        },
+        {
+          "name": "carousel-video",
+          "instances": [
+            "section.swiper-carrusel-video-2024 .swiper-video-container"
+          ]
+        },
+        {
+          "name": "cards-stats",
+          "instances": [
+            "section.quick-facts-2024 .container"
+          ]
+        },
+        {
+          "name": "carousel-logos",
+          "instances": [
+            "section.swiper-carrusel-2024-2 .swiper-container-2"
+          ]
+        },
+        {
+          "name": "columns-gallery",
+          "instances": [
+            "section.tec24-campus-container .tec24-campus-grid-container"
+          ]
+        },
+        {
+          "name": "columns-promo",
+          "instances": [
+            "section.info-cards-2024:nth-of-type(2) .tcard-2024"
+          ]
+        },
+        {
+          "name": "columns-blog",
+          "instances": [
+            "section.blog-2024 .tec24-card-4"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "hero-banner-2024",
+          "name": "Hero Banner",
+          "selector": "section#hero-banner-2024",
+          "style": null,
+          "blocks": [
+            "carousel-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "hero-periods-2024",
+          "name": "Enrollment Periods",
+          "selector": "section.hero-periods-2024",
+          "style": "teal",
+          "blocks": [
+            "cards-dates"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "know-your-purpose",
+          "name": "Purpose Discovery",
+          "selector": "section.know-your-purpose",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "section.know-your-purpose h2.tec24-h2-1",
+            "section.know-your-purpose p.tec24-p-1",
+            "section.know-your-purpose a.btn-maps"
+          ]
+        },
+        {
+          "id": "info-cards-2024-first",
+          "name": "Info Cards",
+          "selector": "section.info-cards-2024:first-of-type",
+          "style": null,
+          "blocks": [
+            "cards-info"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "swiper-carrusel-2024",
+          "name": "Programs Carousel",
+          "selector": "section.swiper-carrusel-2024",
+          "style": null,
+          "blocks": [
+            "carousel-programs"
+          ],
+          "defaultContent": [
+            "section.swiper-carrusel-2024 .swiper-header h2",
+            "section.swiper-carrusel-2024 .swiper-header p"
+          ]
+        },
+        {
+          "id": "features-2024",
+          "name": "Features Grid",
+          "selector": "section.features-2024",
+          "style": "grey",
+          "blocks": [
+            "cards-features"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "swiper-carrusel-video-2024",
+          "name": "Video Carousel",
+          "selector": "section.swiper-carrusel-video-2024",
+          "style": null,
+          "blocks": [
+            "carousel-video"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "quick-facts-2024",
+          "name": "Quick Facts",
+          "selector": "section.quick-facts-2024",
+          "style": "teal",
+          "blocks": [
+            "cards-stats"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "swiper-carrusel-2024-2",
+          "name": "Accreditations",
+          "selector": "section.swiper-carrusel-2024-2",
+          "style": null,
+          "blocks": [
+            "carousel-logos"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "tec24-campus-container",
+          "name": "Campus Gallery",
+          "selector": "section.tec24-campus-container",
+          "style": null,
+          "blocks": [
+            "columns-gallery"
+          ],
+          "defaultContent": [
+            "section.tec24-campus-container .tec24-h2-1",
+            "section.tec24-campus-container .tec24-p-1"
+          ]
+        },
+        {
+          "id": "hero-info-2024",
+          "name": "Visit Campus CTA",
+          "selector": "section.hero-info-2024",
+          "style": "teal",
+          "blocks": [],
+          "defaultContent": [
+            "section.hero-info-2024 .tec24-hero-info-heading",
+            "section.hero-info-2024 .tec24-hero-info-body",
+            "section.hero-info-2024 .tec24-hero-info-cta"
+          ]
+        },
+        {
+          "id": "info-cards-2024-second",
+          "name": "Anniversary Book",
+          "selector": [
+            "section.info-cards-2024:nth-of-type(2)",
+            "section.info-cards-2024 ~ section.info-cards-2024"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "blog-2024",
+          "name": "Blog Promo",
+          "selector": "section.blog-2024",
+          "style": "dark",
+          "blocks": [
+            "columns-blog"
+          ],
+          "defaultContent": []
+        }
+      ]
+    },
+    {
+      "name": "program-listing",
+      "urls": [
+        "https://tecmilenio.mx/es/maestrias"
+      ],
+      "description": "Program catalog listing page for master's degree programs",
+      "blocks": [
+        {
+          "name": "tabs-filter",
+          "instances": [".categoriesModule"]
+        },
+        {
+          "name": "cards-programs",
+          "instances": [".allCareers"]
+        },
+        {
+          "name": "columns-benefits",
+          "instances": [".ourMasters"]
+        },
+        {
+          "name": "columns-gallery",
+          "instances": [".modeloAprendizaje", ".metodoAprendizaje"]
+        },
+        {
+          "name": "columns-promo",
+          "instances": [".bienestarModelo", ".ecosistemaBienestar"]
+        },
+        {
+          "name": "cards-links",
+          "instances": [".semiBlueBg ~ .bodySection"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "banner-header",
+          "name": "Page Header",
+          "selector": ".bannerFaSection",
+          "style": "green-banner",
+          "blocks": [],
+          "defaultContent": [".bannerFaSection h1"]
+        },
+        {
+          "id": "program-catalog",
+          "name": "Program Catalog",
+          "selector": ".modeloCarrerasProfesionales",
+          "style": null,
+          "blocks": ["tabs-filter", "cards-programs"],
+          "defaultContent": [".superTitleB h2"]
+        },
+        {
+          "id": "rvoe-link",
+          "name": "RVOE Link",
+          "selector": ".enlace-rvoes",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".enlace-rvoes p"]
+        },
+        {
+          "id": "benefits",
+          "name": "Benefits",
+          "selector": ".ourMasters",
+          "style": null,
+          "blocks": ["columns-benefits"],
+          "defaultContent": []
+        },
+        {
+          "id": "methodology",
+          "name": "Methodology",
+          "selector": ".modeloAprendizaje",
+          "style": null,
+          "blocks": ["columns-gallery"],
+          "defaultContent": []
+        },
+        {
+          "id": "wellbeing",
+          "name": "Wellbeing Ecosystem",
+          "selector": ".bienestarModelo",
+          "style": null,
+          "blocks": ["columns-promo"],
+          "defaultContent": []
+        },
+        {
+          "id": "links-interest",
+          "name": "Links of Interest",
+          "selector": ".semiBlueBg",
+          "style": "accent-teal",
+          "blocks": ["cards-links"],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

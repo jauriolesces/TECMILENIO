@@ -1,0 +1,143 @@
+/* Block: cards-features
+   Feature cards grid with icon placeholder + heading + description.
+   Source: section.features-2024 on tecmilenio.mx
+   Section background handled by .section.grey in styles.css */
+
+/* --- Section heading style (in default-content-wrapper above block) --- */
+.section.cards-features-container > .default-content-wrapper > h2 {
+  font-size: var(--heading-font-size-xl);
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 48px;
+  color: #00534c;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/* --- Card grid (ul) --- */
+.cards-features > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+/* --- Individual card (li) --- */
+.cards-features > ul > li {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  margin-bottom: 32px;
+  background-color: transparent;
+  border: none;
+}
+
+/* --- Card heading --- */
+/* stylelint-disable-next-line no-descending-specificity */
+.cards-features > ul > li h2 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 1.2;
+  color: #00534c;
+  margin: 0 0 8px;
+}
+
+/* --- Card description --- */
+.cards-features > ul > li p {
+  font-size: var(--body-font-size-m);
+  font-family: var(--body-font-family);
+  line-height: 1.5;
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* --- Icon cell (first cell with Material Symbol) --- */
+.cards-features > ul > li > .cards-features-card-body:first-child {
+  min-width: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: #00534c;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cards-features > ul > li > .cards-features-card-body:first-child p {
+  margin: 0;
+  line-height: 1;
+}
+
+.cards-features > ul > li > .cards-features-card-body:first-child .material-symbols-outlined {
+  font-size: 32px;
+  color: #fff;
+}
+
+/* --- Content cell (second cell with h2 + p) --- */
+.cards-features > ul > li > .cards-features-card-body:last-child {
+  flex: 1;
+}
+
+/* --- Button reset for inline links --- */
+.cards-features .button-container {
+  display: inline;
+}
+
+.cards-features a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: var(--link-color);
+  font-size: inherit;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  white-space: normal;
+}
+
+/* --- Hide card image class (not used in this variant) --- */
+.cards-features .cards-features-card-image {
+  display: none;
+}
+
+/* --- Desktop: 3x2 grid layout --- */
+@media (width >= 900px) {
+  .cards-features > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.3333%;
+  }
+
+  .cards-features > ul > li {
+    flex: 0 0 30%;
+    width: 30%;
+    margin-bottom: 48px;
+  }
+
+  /* Icon container larger on desktop */
+  .cards-features > ul > li > .cards-features-card-body:first-child {
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Card heading larger on desktop */
+  .cards-features h2 {
+    font-size: 30px;
+    line-height: 28px;
+  }
+}
+
+/* Color variant classes */
+.cards-features.black { color: #000; }
+.cards-features.white { color: #fff; }
+.cards-features.grey { color: #6c6c6c; background-color: #f5f5f5; }
+.cards-features.teal { color: #00534c; }
+.cards-features.green-accent { color: #26d07c; }
+.cards-features.dark-teal { color: #fff; background-color: #003d38; }
+.cards-features.light-teal { color: #fff; background-color: #007864; }

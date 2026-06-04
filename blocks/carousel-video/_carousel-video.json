@@ -1,0 +1,99 @@
+{
+  "definitions": [
+    {
+      "title": "Carousel Video",
+      "id": "carousel-video",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Carousel Video",
+              "filter": "carousel-video",
+              "model": "carousel-video"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Carousel Video Slide",
+      "id": "carousel-video-item",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Carousel Video Slide",
+              "model": "carousel-video-item"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "carousel-video",
+      "fields": [
+        {
+          "component": "multiselect",
+          "name": "classes",
+          "label": "Options",
+          "description": "Choose layout and color options for this block",
+          "value": "",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Layout",
+              "children": [
+                { "name": "Full Width", "value": "full-width" }
+              ]
+            },
+            {
+              "name": "Color",
+              "children": [
+                { "name": "Black", "value": "black" },
+                { "name": "White", "value": "white" },
+                { "name": "Grey", "value": "grey" },
+                { "name": "Teal", "value": "teal" },
+                { "name": "Green Accent", "value": "green-accent" },
+                { "name": "Dark Teal", "value": "dark-teal" },
+                { "name": "Light Teal", "value": "light-teal" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carousel-video-item",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "video_url",
+          "value": "",
+          "label": "YouTube Video URL",
+          "description": "Paste the full YouTube URL (e.g. https://www.youtube.com/watch?v=VIDEO_ID)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "video_title",
+          "value": "",
+          "label": "Video Title",
+          "description": "Title displayed below the video"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "carousel-video",
+      "components": [
+        "carousel-video-item"
+      ]
+    }
+  ]
+}

@@ -119,6 +119,39 @@
                   "value": "no-header"
                 }
               ]
+            },
+            {
+              "name": "Color",
+              "children": [
+                {
+                  "name": "Black",
+                  "value": "black"
+                },
+                {
+                  "name": "White",
+                  "value": "white"
+                },
+                {
+                  "name": "Grey",
+                  "value": "grey"
+                },
+                {
+                  "name": "Teal",
+                  "value": "teal"
+                },
+                {
+                  "name": "Green Accent",
+                  "value": "green-accent"
+                },
+                {
+                  "name": "Dark Teal",
+                  "value": "dark-teal"
+                },
+                {
+                  "name": "Light Teal",
+                  "value": "light-teal"
+                }
+              ]
             }
           ]
         },
@@ -237,19 +270,27 @@
   "filters": [
     {
       "id": "table",
-      "components": ["table-row"]
+      "components": [
+        "table-row"
+      ]
     },
     {
       "id": "table-2-columns",
-      "components": ["table-col-2"]
+      "components": [
+        "table-col-2"
+      ]
     },
     {
       "id": "table-3-columns",
-      "components": ["table-col-3"]
+      "components": [
+        "table-col-3"
+      ]
     },
     {
       "id": "table-4-columns",
-      "components": ["table-col-4"]
+      "components": [
+        "table-col-4"
+      ]
     }
   ]
 }

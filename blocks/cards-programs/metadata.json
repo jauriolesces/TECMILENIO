@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-programs",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-02T17:15:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es/maestrias",
+    "originPage": "master's degree program listing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "program-listing",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + title + description + metadata per card in 2-column grid",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "academic program listing pages",
+      "course/degree catalogs with icons",
+      "service listing grids with structured metadata"
+    ],
+    "notSuitableFor": [
+      "image-heavy product cards",
+      "simple feature grids without descriptions",
+      "statistical/numeric displays"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es/maestrias"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T17:15:00.000Z"
+  }
+}

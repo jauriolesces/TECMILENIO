@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://tecmilenio.mx/es/maestrias",
+  "path": "es/maestrias",
+  "timestamp": "2026-06-02T17:28:58.322Z",
+  "title": "Maestrías | Futuro Alumno | Tecmilenio",
+  "template": "program-listing",
+  "blocks": [
+    "tabs-filter",
+    "cards-programs",
+    "columns-benefits",
+    "cards-links"
+  ]
+}

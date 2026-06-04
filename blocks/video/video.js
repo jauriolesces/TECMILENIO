@@ -108,7 +108,8 @@ const loadVideoEmbed = (block, link, autoplay, background) => {
 
 export default async function decorate(block) {
   const placeholder = block.querySelector('picture');
-  const link = block.querySelector('a').href;
+  const anchor = block.querySelector('a');
+  const link = anchor ? anchor.href : (block.querySelector('img[src$=".mp4"], img[src$=".webm"], img[src$=".ogg"]')?.src || block.textContent.trim());
   block.textContent = '';
   block.dataset.embedLoaded = false;
 

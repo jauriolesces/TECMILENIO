@@ -31,3 +31,12 @@
     order: unset;
   }
 }
+
+/* Color variant classes */
+.columns.black { color: #000; }
+.columns.white { color: #fff; }
+.columns.grey { color: #6c6c6c; background-color: #f5f5f5; }
+.columns.teal { color: #00534c; }
+.columns.green-accent { color: #26d07c; }
+.columns.dark-teal { color: #fff; background-color: #003d38; }
+.columns.light-teal { color: #fff; background-color: #007864; }

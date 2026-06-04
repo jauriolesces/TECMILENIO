@@ -39,3 +39,12 @@
   content: '—';
   padding-right: 0.5ch;
 }
+
+/* Color variant classes */
+.quote.black { color: #000; }
+.quote.white { color: #fff; }
+.quote.grey { color: #6c6c6c; background-color: #f5f5f5; }
+.quote.teal { color: #00534c; }
+.quote.green-accent { color: #26d07c; }
+.quote.dark-teal { color: #fff; background-color: #003d38; }
+.quote.light-teal { color: #fff; background-color: #007864; }

@@ -33,6 +33,48 @@
           "value": "",
           "label": "Attribution",
           "valueType": "string"
+        },
+        {
+          "component": "select",
+          "name": "classes",
+          "label": "Color Variant",
+          "description": "Override the block color scheme",
+          "value": "",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Black",
+              "value": "black"
+            },
+            {
+              "name": "White",
+              "value": "white"
+            },
+            {
+              "name": "Grey",
+              "value": "grey"
+            },
+            {
+              "name": "Teal",
+              "value": "teal"
+            },
+            {
+              "name": "Green Accent",
+              "value": "green-accent"
+            },
+            {
+              "name": "Dark Teal",
+              "value": "dark-teal"
+            },
+            {
+              "name": "Light Teal",
+              "value": "light-teal"
+            }
+          ]
         }
       ]
     }

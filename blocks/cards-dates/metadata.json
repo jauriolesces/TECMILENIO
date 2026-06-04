@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-dates",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-02T16:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://tecmilenio.mx/es",
+    "originPage": "homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent",
+    "density": "compact",
+    "purpose": "enrollment-dates",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "icon + title + date per card",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "date/schedule displays",
+      "enrollment period cards",
+      "timeline-style info cards"
+    ],
+    "notSuitableFor": [
+      "image-heavy cards",
+      "product cards",
+      "feature grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/es"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T16:36:00.000Z"
+  }
+}
